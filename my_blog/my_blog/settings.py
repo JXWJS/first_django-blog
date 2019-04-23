@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'test',
         'USER':'root',
-        'PASSWORD':'lx17606106551',
+        'PASSWORD':'####your password',
         'HOST':'localhost',
         'PORT':'3306',
     }
@@ -134,15 +134,15 @@ STATICFILES_DIRS=(
 
 EMAIL_HOST = 'smtp.qq.com'
 # 改为你自己的邮箱名！
-EMAIL_HOST_USER = '554468392@qq.com'
+EMAIL_HOST_USER = '#########@qq.com'
 # 你的邮箱密码
-EMAIL_HOST_PASSWORD = 'pybxvuhdcndebeic'
+EMAIL_HOST_PASSWORD = 'qq邮箱申请的密码'
 # 发送邮件的端口
 EMAIL_PORT =587
 # 是否使用 TLS
 EMAIL_USE_TLS = True
 # 默认的发件人
-DEFAULT_FROM_EMAIL = 'xxx的博客 <554468392@qq.com>'
+DEFAULT_FROM_EMAIL = 'xxx的博客 <xxxxxxxxxxx>'
 
 
 MEDIA_URL = '/media/'
